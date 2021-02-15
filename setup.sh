@@ -69,11 +69,7 @@ done
 
 #Applications
 declare -a cask_apps=(
-  alfred
-  caffeine
-  dash
   dropbox
-  evernote
   google-chrome
   iterm2
   slack
@@ -86,7 +82,6 @@ declare -a cask_apps=(
   atom
   intellij-idea-ce
   android-studio
-  dropbox
 )
 
 for app in "${cask_apps[@]}"; do
